@@ -1,0 +1,184 @@
+.index_tab_item-current{
+    border-bottom: 2px solid #EE4C41;
+    font-weight: bold;
+  }
+  a,a:hover{
+    text-decoration: none;
+  }
+  body,p{
+    padding: 0;
+    margin: 0;}
+    #top {  
+    display: flex;  
+    justify-content: center; /* 水平居中 */  
+    align-items: center; /* 垂直居中 */  
+    background-color: #fff;  
+    padding: 6px 12px;   
+  }
+  .icon-sousuotianchong{
+    margin: 8px 7px;
+    font-size: 14px;
+    
+  }
+  .btn{
+    color:black;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .stg{
+    color: #000;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .kg{
+    color: #fff;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .kg1{
+    color: #fff;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .mod_index_tab{
+    display: block;
+    width: 95%;
+    height: auto;
+    margin: auto; /* 水平居中 */ 
+    width: auto;
+    height: auto;
+  }
+  .index_tab_item-current{
+    border-bottom: 2px solid #EE4C41;
+    font-weight: bold;
+  }
+  a,a:hover{
+    text-decoration: none;
+  }
+  /* title */
+
+/* 图片 */
+.con img {
+    border-radius:0px;
+    width: 100%;
+    height: auto;
+  }
+/* 图片 */
+
+/* iconfont */
+ .abc {  
+    display: flex;  
+    justify-content: center;  
+    align-items: center;  
+    background-color: #fff;  
+    padding: 6px 12px;  
+    border: 3px solid #fff;  
+  }
+  .abc .aaa {    
+    display: flex;    
+    flex-direction: column;    
+    color: #EE4C41;    
+    font-style: 16px;    
+    margin: 6px 25px 10px;  /* 这里增加了10px的垂直间距 */    
+    text-align: center;    
+  }
+ .abc .aaa .cc {  
+    text-align: center;  
+    color: #7f838f;  
+    margin-top: 10px; /* 增加图标和文字之间的间距 */  
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    height: 25px;
+
+    white-space: nowrap;
+    /* 防止文字换行 */
+    text-overflow: ellipsis;
+  }
+/* iconfont */
+
+
+
+
+  /* 下导航 */
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  .icon:hover{
+      fill: red;
+  }
+  svg{
+      font-size: 100px;
+  }
+  ul{
+      list-style: none;
+  }
+  ul,p,body{
+      padding: 0;
+      margin: 0;
+  }
+  .bnav{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 9;
+      background-color: #fff;/* 必须有，没有设为fff */
+  }
+  body{margin-bottom: 50px;}
+  .bnav>ul{display: flex;}
+  .bnav li{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .bnav svg{
+      font-size: 48px;
+  }
+  .bnav p{
+      font-size: 14px;
+      line-height: 24px;
+      color:#333;
+      text-align: center;
+  }
+  /* 滑动框_推荐歌单*/
+  
+  /* 歌曲  */
+  
+  .bnav img{
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  /* 歌曲  */
+  .search {
+      background-color: #fff;
+      border-radius: 22px;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+    
+    .search > span {
+      font-size: 20px;
+      margin: 0 8px;
+    }
+    
+    #search {
+      flex-grow: 2;
+      border: none;
+      outline: none;
+      /* 轮廓 */
+      margin-right: 20px;
+    }
+      /* 下导航 */

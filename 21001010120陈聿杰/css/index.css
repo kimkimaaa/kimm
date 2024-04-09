@@ -1,0 +1,248 @@
+/* 搜索框 */
+body,p{
+    padding: 0;
+    margin: 0;}
+#top{
+    
+    display: flex;
+    background-color: #f7f9fc;
+    padding: 6px 12px;
+    
+}
+.search{
+   border-radius: 15px;
+   background-color: #fff;
+   flex-grow: 1;
+   display: flex;
+   align-items: center;
+}
+.search>span{
+    font-size: 14px;
+    margin: 0 8px;
+    
+}
+
+#search{
+    flex-grow: 2;
+    border: none;
+    outline:none;
+    /* 轮廓 */
+    margin-right: 20px;
+}
+.icon-sousuotianchong{
+    margin: 8px 7px;
+    font-size: 14px;
+    
+}
+.btn{
+    color: #000;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+}
+.stg{
+    color: #000;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+}
+.kg{
+    color:#f7f9fc;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+}
+.kg1{
+    color: #f7f9fc;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+}
+.btn p{
+font-size: 10px;
+}
+ /* 搜索框 */  
+ 
+ /* 滑动图  */
+ .swiper-slide {  
+    text-align: center;  
+  }  
+ .swiper-slide img {  
+    width: 100%;  
+  height: auto;    
+    border-radius: 10px;  
+    border: 1px solid #ccc; /* 添加边框 */  
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* 添加阴影 */  
+}
+
+.s3 {
+    overflow: hidden;
+}
+ /* 滑动图  */
+ /* 红色滚轮 */
+ html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+    .s4 {
+        overflow:visible;
+        position:relative;
+    }
+
+  /* 红色滚轮 */
+
+  /* 滑动_推荐歌单*/
+  body {
+    padding: 0;
+    margin: 0;
+  }
+.s2 {
+    height: 33px;
+    font-size: 16px;
+    color: #000;
+    text-align: center;
+    overflow: hidden;
+  }
+  img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+  }
+  .tp .cc {
+    text-align: center;
+    width: 100%;
+    font-size: 15px;
+    line-height: 20px;
+    height: 25px;
+
+    white-space: nowrap;
+    /* 防止文字换行 */
+    text-overflow: ellipsis;
+    /* 显示省略号 */
+  }
+h2{
+ font-size: 18px;
+ text-align: left;
+ color: rgb(82, 81, 81);
+ text-decoration: none;
+}
+p2{
+    font-size: 18px;
+ text-align: right; 
+ color: grey;
+}
+p3{
+    font-size: 18px;
+ text-align:center; 
+ color: #000;
+}
+.container {  
+    display: flex;  
+    justify-content: space-between;  
+}  
+.container h2 a {  
+    color: black;  
+    text-decoration: none;  
+  }
+  
+  /* 滑动_推荐歌单 */
+
+  /* look直播 */
+  .container1 {  
+    display: flex;  
+    justify-content: space-between;  
+}  
+.container1 h2 a {  
+    color: black;  
+    text-decoration: none;  
+  }
+  /* look直播 */
+
+  
+  /* 下导航 */
+.icon {
+  width: 1em;
+  height: 1em;
+  vertical-align: -0.15em;
+  fill: currentColor;
+  overflow: hidden;
+}
+.icon:hover{
+    fill: red;
+}
+svg{
+    font-size: 100px;
+}
+ul{
+    list-style: none;
+}
+ul,p,body{
+    padding: 0;
+    margin: 0;
+}
+.bnav{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 9;
+    background-color: #fff;/* 必须有，没有设为fff */
+}
+body{margin-bottom: 50px;}
+.bnav>ul{display: flex;}
+.bnav li{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    
+}
+.bnav svg{
+    font-size: 48px;
+}
+.bnav p{
+    font-size: 14px;
+    line-height: 24px;
+    color:#333;
+    text-align: center;
+}
+/* 滑动框_推荐歌单*/
+
+/* 歌曲  */
+
+.bnav img{
+  border-radius: 0px;
+  width: 100%;
+  height: 100%;
+  
+}
+/* 歌曲  */
+.search {
+    background-color: #fff;
+    border-radius: 22px;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .search > span {
+    font-size: 20px;
+    margin: 0 8px;
+  }
+  
+  #search {
+    flex-grow: 2;
+    border: none;
+    outline: none;
+    /* 轮廓 */
+    margin-right: 20px;
+  }

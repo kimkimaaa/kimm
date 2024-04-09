@@ -1,0 +1,332 @@
+/* title */
+.index_tab_item-current{
+    border-bottom: 2px solid #EE4C41;
+    font-weight: bold;
+  }
+  a,a:hover{
+    text-decoration: none;
+  }
+  body,p{
+    padding: 0;
+    margin: 0;}
+    #top {  
+    display: flex;  
+    justify-content: center; /* 水平居中 */  
+    align-items: center; /* 垂直居中 */  
+    background-color: #fff;  
+    padding: 6px 12px;   
+  }
+  .icon-sousuotianchong{
+    margin: 8px 7px;
+    font-size: 14px;
+    
+  }
+  .btn{
+    color:#EE4C41;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .stg{
+    color: #000;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .kg{
+    color: #fff;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .kg1{
+    color: #fff;
+    font-style: 16px;
+    margin: 6px 7px;
+    text-align: center;
+  }
+  .mod_index_tab{
+    display: block;
+    width: 95%;
+    height: auto;
+    margin: auto; /* 水平居中 */ 
+    width: auto;
+    height: auto;
+  }
+  .index_tab_item-current{
+    border-bottom: 2px solid #EE4C41;
+    font-weight: bold;
+  }
+  a,a:hover{
+    text-decoration: none;
+  }
+  /* title */
+  
+  /* 搜索框 */
+  .search{
+    justify-content: center; /* 水平居中 */  
+    align-items: center; /* 垂直居中 */  
+    border-radius: 15px;
+    background-color:  #F2F3F7;
+    flex-grow: 1;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .search>span{
+     font-size: 14px;
+     margin: 0 8px;
+     
+  }
+  
+  #search{
+     flex-grow: 2;
+     border: none;
+     outline:none;
+     /* 轮廓 */
+     margin-right: 20px;
+     background-color: #F2F3F7;
+     height: 30px;
+  }
+  /* 搜索框 */
+  
+  /* 滑动*/
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  .icon:hover{
+      fill: red;
+  }
+  svg{
+      font-size: 100px;
+  }
+  ul{
+      list-style: none;
+  }
+  ul,p,body{
+      padding: 0;
+      margin: 0;
+  }
+  .bnav{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 9;
+      background-color: #fff;/* 必须有，没有设为fff */
+  }
+  body{margin-bottom: 50px;}
+  .bnav>ul{display: flex;}
+  .bnav li{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .bnav svg{
+      font-size: 48px;
+  }
+  .bnav p{
+      font-size: 14px;
+      line-height: 24px;
+      color:#333;
+      text-align: center;
+  }
+  .swiper-slide {
+    flex-shrink: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+    display: block;
+  }
+  .s4 {
+    overflow:visible;
+    position:relative;
+  }
+  .s4 img{
+    width: 100%;
+    height: 100%;
+  }
+  /* 滑动*/
+  
+  /* 热门推荐  */
+  .container {  
+    display: flex;  
+    justify-content: space-between;  
+  }  
+  .container h2 a {  
+    color: black;  
+    text-decoration: none;  
+  }
+  .container h3{
+    color: #5975b2;  
+    text-decoration: none;  
+  }
+  .con img {
+    border-radius:0px;
+    width: 100%;
+    height: auto;
+  }
+  /* 热门推荐  */
+  /* 列表 */
+  ul,
+  h3 {
+      padding: 0;
+      margin: 0;
+  }
+  
+  ul {
+      list-style: none;
+  }
+  
+  a {
+      color: #000;
+      text-decoration: none;
+  }
+  
+  .jlist {
+      max-width: 500px;
+  }
+  
+  .jlist li {
+      display: flex;
+      border-bottom: 1px dotted #ccc;
+      margin-bottom: 8px;
+      padding-bottom: 4px;
+  }
+  
+  .jlist li img {
+      text-align: right;
+      width: 150px;
+  }
+  
+  .title {
+      margin-left: 8px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-grow: 1;
+  }
+  
+  .title h3 {
+      font-size: 20px;
+      line-height: 33px;
+      width: 100%;
+  }
+  
+  .title a {
+      color: #7d8392;
+  }
+  
+  .title span {
+      font-size: 12px;
+      line-height: 22px;
+      color: #999;
+  }
+  
+  .title h4 {
+    font-size: 20px;
+    line-height: 33px;
+    width: 100%;
+  }
+  .sketch{
+    font-size: 20px;
+    line-height: 22px;
+    color: black;
+  }
+  .author {
+      font-size: 14px;
+      margin-left: 8px;
+      display: block;
+  }
+  
+  .title>.type {
+      font-size: 14px;
+      /* font-weight: bold; 字体加粗 */
+      color: #5d78b3;
+  }
+  
+  /* 列表 */
+  
+  
+  
+  .icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: -0.15em;
+    fill: currentColor;
+    overflow: hidden;
+  }
+  .icon:hover{
+      fill: red;
+  }
+  svg{
+      font-size: 100px;
+  }
+  ul{
+      list-style: none;
+  }
+  ul,p,body{
+      padding: 0;
+      margin: 0;
+  }
+  .bnav{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      z-index: 9;
+      background-color: #fff;/* 必须有，没有设为fff */
+  }
+  body{margin-bottom: 50px;}
+  .bnav>ul{display: flex;}
+  .bnav li{
+      width: 20%;
+      display: flex;
+      justify-content: center;
+      
+  }
+  .bnav svg{
+      font-size: 48px;
+  }
+  .bnav p{
+      font-size: 14px;
+      line-height: 24px;
+      color:#333;
+      text-align: center;
+  }
+  /* 滑动框_推荐歌单*/
+  
+  /* 歌曲  */
+  
+  .bnav img{
+    border-radius: 0px;
+    width: 100%;
+    height: 100%;
+    
+  }
+  /* 歌曲  */
+  .search {
+      background-color: #fff;
+      border-radius: 22px;
+      flex-grow: 1;
+      display: flex;
+      align-items: center;
+    }
+    
+    .search > span {
+      font-size: 20px;
+      margin: 0 8px;
+    }
+    
+    #search {
+      flex-grow: 2;
+      border: none;
+      outline: none;
+      /* 轮廓 */
+      margin-right: 20px;
+    }
